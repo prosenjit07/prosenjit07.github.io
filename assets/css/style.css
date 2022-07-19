@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #010e1b;
+  background: #000000;
   background-size: cover;
   left: 0;
   right: 0;
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   transition: ease-in-out 0s;
   position: relative;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   z-index: 997;
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: #12d640;
+  color: #104099;
 }
 
 #header h2 span {
@@ -109,8 +109,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
 }
 
 #header .social-links a:hover {
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li + li {
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 .nav-menu a {
