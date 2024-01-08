@@ -93,45 +93,73 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
 }
-
+/* Updated styles for responsiveness and attractiveness */
 #header .social-links {
   margin-top: 40px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-#header .social-links a {
+#header .social-links > div {
+  margin-bottom: 20px;
+}
+
+#header .social-links p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#header .social-links h2 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#header .social-links p {
+  color: #fff;
   font-size: 16px;
+  line-height: 1.6;
+}
+
+#header .social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+#header .social-icons a {
+  font-size: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
   color: #fff;
-  line-height: 1;
-  margin-right: 8px;
+  margin: 0 8px;
   border-radius: 50%;
   width: 45px;
   height: 45px;
 }
 
-#header .social-links a:hover {
-  background: #1c7d32;
+#header .social-icons a:hover {
+  background: #1a3b88;
 }
 
 @media (max-width: 992px) {
-  #header h1 {
-    font-size: 36px;
-  }
-  #header h2 {
-    font-size: 20px;
-    line-height: 30px;
-  }
   #header .social-links {
     margin-top: 15px;
   }
-  #header .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  #header .social-links p {
+    font-size: 16px;
+  }
+  #header .social-links h2 {
+    font-size: 18px;
+  }
+  #header .social-icons a {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
   }
 }
 
